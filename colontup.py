@@ -1,0 +1,8 @@
+print("colon of a tuple:")
+t=(1,2,[1,2],4,[])
+d=eval(str(t))
+print(t,type(t))
+print(d,type(d))
+d[-1].append(500)
+print(d)
+print(t)
